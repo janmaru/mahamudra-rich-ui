@@ -1,0 +1,36 @@
+{
+  "type": "frame",
+  "title": "System Overview",
+  "slots": {
+    "header": [
+      {
+        "type": "panel",
+        "title": "Environment",
+        "bind": "environment"
+      }
+    ],
+    "body": [
+      {
+        "type": "stack",
+        "direction": "row",
+        "children": [
+          {
+            "type": "table",
+            "title": "Services",
+            "bind": "services"
+          },
+          {
+            "type": "panel",
+            "title": "Highlights",
+            "bind": "highlights"
+          },
+          {
+            "type": "panel",
+            "title": "Update",
+            "bind": "update"
+          }
+        ]
+      }
+    ]
+  }
+}

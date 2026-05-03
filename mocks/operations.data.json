@@ -1,0 +1,22 @@
+{
+  "environment": [
+    "Region: eu-west",
+    "Cluster: prod-01",
+    "Version: 1.4.2"
+  ],
+  "services": [
+    { "Service": "api-gateway", "Status": "UP",       "Latency": "23 ms", "Errors": "0"  },
+    { "Service": "billing",     "Status": "UP",       "Latency": "41 ms", "Errors": "2"  },
+    { "Service": "worker",      "Status": "DEGRADED", "Latency": "88 ms", "Errors": "14" }
+  ],
+  "highlights": [
+    "2 deployments in progress",
+    "1 degraded service",
+    "No critical incidents"
+  ],
+  "update": [
+    "Services: 11:44:10Z - every 15s",
+    "Highlights: 11:43:30Z - every 60s",
+    "Environment: 11:35:00Z - every 900s"
+  ]
+}

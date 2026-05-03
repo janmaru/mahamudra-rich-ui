@@ -1,0 +1,12 @@
+{
+  "scenario": {
+    "source": "scatter-demo",
+    "updated_at": "2026-04-29T16:55:00Z",
+    "interval_seconds": 3600
+  },
+  "trajectory": {
+    "source": "scatter-demo",
+    "updated_at": "2026-04-29T16:55:00Z",
+    "interval_seconds": 3600
+  }
+}
