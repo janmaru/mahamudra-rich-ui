@@ -1,0 +1,26 @@
+{
+  "mission": [
+    "Voyager 1 - 167 AU - 17 km/s",
+    "Voyager 2 - 138 AU - 15 km/s"
+  ],
+  "spacecraft": [
+    { "Name": "Voyager 1", "Distance": "167 AU", "Speed": "17 km/s" },
+    { "Name": "Voyager 2", "Distance": "138 AU", "Speed": "15 km/s" }
+  ],
+  "status": [
+    "DSN: OK",
+    "Weather: Quiet",
+    "Alerts: None"
+  ],
+  "update": [
+    "Spacecraft: 11:44:00Z - every 300s",
+    "Status: 11:44:05Z - every 30s",
+    "Photo: 11:20:00Z - every 3600s"
+  ],
+  "photo": {
+    "title": "Voyager Tour Montage",
+    "published": "1998-10-30T14:58:30Z",
+    "url": "https://images.nasa.gov/details/PIA01483",
+    "image_url": "https://images-assets.nasa.gov/image/PIA01483/PIA01483~thumb.jpg"
+  }
+}

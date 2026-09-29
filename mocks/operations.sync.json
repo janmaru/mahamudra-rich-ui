@@ -1,0 +1,22 @@
+{
+  "environment": {
+    "source": "deployment-metadata",
+    "updated_at": "2026-04-29T11:35:00Z",
+    "interval_seconds": 900
+  },
+  "services": {
+    "source": "service-monitor",
+    "updated_at": "2026-04-29T11:44:10Z",
+    "interval_seconds": 15
+  },
+  "highlights": {
+    "source": "incident-summary",
+    "updated_at": "2026-04-29T11:43:30Z",
+    "interval_seconds": 60
+  },
+  "update": {
+    "source": "aggregated-sync",
+    "updated_at": "2026-04-29T11:44:10Z",
+    "interval_seconds": 5
+  }
+}

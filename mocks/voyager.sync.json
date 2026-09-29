@@ -1,0 +1,27 @@
+{
+  "mission": {
+    "source": "mission-summary",
+    "updated_at": "2026-04-29T11:40:00Z",
+    "interval_seconds": 3600
+  },
+  "spacecraft": {
+    "source": "horizons",
+    "updated_at": "2026-04-29T11:44:00Z",
+    "interval_seconds": 300
+  },
+  "status": {
+    "source": "computed-status",
+    "updated_at": "2026-04-29T11:44:05Z",
+    "interval_seconds": 30
+  },
+  "update": {
+    "source": "aggregated-sync",
+    "updated_at": "2026-04-29T11:44:05Z",
+    "interval_seconds": 5
+  },
+  "photo": {
+    "source": "nasa-images",
+    "updated_at": "2026-04-29T11:20:00Z",
+    "interval_seconds": 3600
+  }
+}

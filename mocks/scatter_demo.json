@@ -1,0 +1,22 @@
+{
+  "type": "frame",
+  "title": "Scatter 2D Demo",
+  "slots": {
+    "header": [
+      {
+        "type": "panel",
+        "title": "Scenario",
+        "bind": "scenario"
+      }
+    ],
+    "body": [
+      {
+        "type": "scatter_2d",
+        "title": "Probes",
+        "bind": "trajectory",
+        "options": { "plane": "auto", "height": 18 },
+        "layout": { "min_width": 50 }
+      }
+    ]
+  }
+}

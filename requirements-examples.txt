@@ -1,0 +1,4 @@
+-r requirements.txt
+Pillow>=10.0
+requests>=2.31
+

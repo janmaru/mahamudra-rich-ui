@@ -1,0 +1,52 @@
+{
+  "type": "frame",
+  "title": "Voyager Demo",
+  "slots": {
+    "header": [
+      {
+        "type": "panel",
+        "title": "Mission",
+        "bind": "mission"
+      }
+    ],
+    "body": [
+      {
+        "type": "stack",
+        "direction": "row",
+        "children": [
+          {
+            "type": "table",
+            "title": "Spacecraft",
+            "bind": "spacecraft"
+          },
+          {
+            "type": "panel",
+            "title": "Status",
+            "bind": "status"
+          },
+          {
+            "type": "panel",
+            "title": "Update",
+            "bind": "update"
+          },
+          {
+            "type": "photo_card",
+            "title": "NASA Photo",
+            "bind": "photo",
+            "options": {
+              "mode": "native_hint",
+              "hint": "Best viewed in the Voyager native photo viewer"
+            },
+            "actions": [
+              {
+                "id": "open_photo",
+                "label": "open photo viewer",
+                "key": "T"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

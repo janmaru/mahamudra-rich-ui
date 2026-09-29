@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rich-ui"
+version = "0.1.0"
+description = "A small Python library that turns a JSON-friendly UI DSL into rich renderables."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0",
+]
+
+[tool.setuptools]
+packages = ["rich_ui"]
